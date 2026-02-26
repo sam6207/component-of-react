@@ -3,7 +3,7 @@ import { TodoProvider} from './contexts/TodoContext'
 import './App.css'
 
 function App() {
-const [Todos, setTodos] = useState( [] )
+const [Todos, SetTodos] = useState( [] )
 
   return (
     <TodoProvider>
